@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #3dde2f;
+    color: black;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.task {
+    background-color: white;
+    border: 2px black solid;
+    position: relative;
+    width: 240px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center
+}
+
+.lists {
+    background: whitesmoke;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px #04751c solid;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.tittle {
+    font-size: 40px;
+    margin-left: 400px;
+    margin-top: 100px;
+    font-weight: 400;
+    font-style: italic;
+    color: #1100cf;
+}
+
+.hold {
+    border: 2px black solid;
+}
+
+.hovered {
+    background: white;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none;
+}
+
